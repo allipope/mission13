@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const moviedata = data.MovieData;
 
-function MovieList() {
+function Movies() {
   const [ListOMovies, setListOMovies] = useState(moviedata);
 
   const addMovie = () => {
@@ -75,4 +75,4 @@ function MovieList() {
   );
 }
 
-export default MovieList;
+export default Movies;

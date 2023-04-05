@@ -11,7 +11,7 @@ function HomePage() {
           <Link to="/podcast" className="navbar-item navbar-brand">
             Podcast
           </Link>
-          <Link to="/movies" className="nav-item navbar-brand">
+          <Link to="/movieList" className="nav-item navbar-brand">
             Movie Collection
           </Link>
         </div>

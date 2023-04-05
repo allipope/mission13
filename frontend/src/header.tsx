@@ -4,23 +4,17 @@ import { Link } from 'react-router-dom';
 function topBanner() {
   return (
     <>
-      <ul className="list-group list-group-flush">
-        <li>
-          <Link to="/" className="list-group-item">
-            Home
-          </Link>
-        </li>
-        <li>
-          <Link to="/podcast" className="list-group-item">
-            Podcast
-          </Link>
-        </li>
-        <li>
-          <Link to="/movies" className="list-group-item">
-            Movies List
-          </Link>
-        </li>
-      </ul>
+      <div className="navbar navbar-expand-lg navbar-light bg-light p-3">
+        <Link to="/" className="navbar-brand mb-0 h1">
+          Home
+        </Link>
+        <Link to="/podcast" className="navbar-item navbar-brand">
+          Podcast
+        </Link>
+        <Link to="/movies" className="nav-item navbar-brand">
+          Movie Collection
+        </Link>
+      </div>
     </>
   );
 }
